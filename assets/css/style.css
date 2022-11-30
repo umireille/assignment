@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: linear-gradient(to left, #f3f7fb, #f3f7fb 50%, #4c6fff 50%, #4c6fff);
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.main__container{
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
