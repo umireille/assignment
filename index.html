@@ -10,68 +10,67 @@
 </head>
 
 <body>
-    <div class="main__container">
-        <div class="l-message">
-            <img src="./images/logo.png" class="logo" alt="">
-            <span class="dot3">
-                <span class="dot1">
-                    <span class="dot2">
-
+    <div class="main__container container">
+        <div class="carousel">
+            <img src="./assets/img/logo.png" class="logo" alt="">
+            <span class="circle3">
+                <span class="circle1">
+                    <span class="circle2">
                         <img src="./assets/img/chart.png" alt="card">
-
                     </span>
                 </span>
             </span>
 
             <div style="text-align:center" class="target">
                 <p>Let'see what we have new, check it out! So maybe write her something more.</p>
-                <span class="line line1"></span>
-                <span class="line"></span>
-                <span class="line"></span>
+                <span class="carousel__dot active__carousel"></span>
+                <span class="carousel__dot"></span>
+                <span class="carousel__dot"></span>
             </div>
 
 
 
         </div>
-        <div class="l-form">
+        <div class="form__box">
 
-            <form action="questionaire.php" method="post">
-                <div class="form-heading">
+            <form action="#" class="form">
+                <div class="form__heading">
                     <h1>Create your account</h1>
                     <p>it's free and easy.</p>
                 </div>
 
                 <div>
                     <label for="name">Your name</label><br>
-                    <input type="text" placeholder="Enter your name" name="name" required>
+                    <input type="text" placeholder="Enter your name" required autofocus>
                 </div>
                 <div>
                     <label for="email">E-mail or phone number</label><br>
-                    <input type="text" placeholder="Type your e-mail or phone number" name="email" required>
+                    <input type="text" placeholder="Type your e-mail or phone number" required>
                 </div>
 
                 <div>
                     <label for="psw">Password</label><br>
-                    <input type="password" placeholder="Type your Password" name="psw" required>
+                    <input type="password" placeholder="Type your Password" required>
                 </div>
-
+                <div class="terms__policy">
+                    <input type="checkbox" class="check" id="policy" name="policy" required>
+                    <p>
+                        creating an account means you agree to the<b> Terms and Conditions</b> and our<b> Privacy Policy</b>
+                    </p>
+                </div>
                 <div>
-                    <a href="questionaire.html"><button type="submit" class="l-get-started">Register</button></a>
+                    <button type="submit" class="btn">Register</button>
                 </div>
-
-
-                <div class="policy">
-                    <input type="checkbox" class="check" id="policy" name="policy" value="terms&conditions">
-                    <p>creating an account means you agree to the<b> Terms and Conditions</b> and our<b> Privacy
-                            Policy</b></p>
+                <div>
+                    <p>Some text here....</p>
                 </div>
-                <div class="icons">
-                    <img src="./images/google.png" alt="">
-                    <img src="./images/apple.png" alt="">
-                    <img src="./images/facebook.png" alt="">
+                <div class="social__icons">
+                    <img src="./assets/img/google.png" alt="">
+                    <img src="./assets/img/apple.png" alt="">
+                    <img src="./assets/img/facebook.png" alt="">
                 </div>
             </form>
-            <img src="./images/chat.png" class="chat" alt="">
+            <img src="./assets/img/chat.png" class="chat" alt="">
         </div>
     </div>
     <script src="./assets/js/script.js"></script>
