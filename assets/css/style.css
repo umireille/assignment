@@ -51,11 +51,13 @@ body {
 .form {
   background-color: #f3f7fb;
   margin-left: 20%;
+  margin-top: 1.5rem;
+  border-radius: .75rem;
   width: 60%;
   padding: 13px 0px 13px 21px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+
   color: #1a1a1adb;
 }
 input{
@@ -87,8 +89,11 @@ input{
     color: white;
     padding: 15px 32px;
     text-align: center;
+    width: 100%;
+    border-radius: 1rem;
     display: block;
     font-size: 16px;
+    margin-bottom: .75rem;
     transition-duration: 0.4s;
     cursor: pointer;
 }
