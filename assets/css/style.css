@@ -58,6 +58,29 @@ body {
   gap: 4px;
   color: #1a1a1adb;
 }
+input{
+    padding: 9px;
+    margin: 5px 0 22px 0;
+    border: rgb(29, 29, 29) 1px solid;
+    display: block;
+  }
+
+  input[type=text], input[type=password] {
+    padding: 9px;
+    margin: 12px 0 18px 0;
+    width: 85%;
+    border: 2px;
+  }
+
+  input[type=checkbox]{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  }
+
 .btn{
     background-color: #4c6fff;
     border: none;
